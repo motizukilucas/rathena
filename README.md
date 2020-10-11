@@ -4,6 +4,9 @@
   
   $ apt-get install git make default-libmysqlclient-dev zlib1g-dev libpcre3-dev
   
+  $ sudo apt install build-essential
+  > For gcc & g++
+  
   > Below comands might not be needed to run as unstable
   $ echo "deb http://ftp.us.debian.org/debian unstable main contrib non-free" >> /etc/apt/sources.list.d/unstable.list
   
