@@ -2,7 +2,7 @@
 ## Requirements
   $ apt-get update
   
-  $ apt-get install git make default-libmysqlclient-dev zlib1g-dev libpcre3-dev
+  $ apt-get install git make default-libmysqlclient-dev zlib1g-dev libpcre3-dev mysql-server
   
   $ sudo apt install build-essential
   > For gcc & g++
