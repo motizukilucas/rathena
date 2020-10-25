@@ -1,13 +1,13 @@
 # Server setup
 ## Requirements
-  $ apt-get update
+  $ sudo apt-get update
   
-  $ apt-get install git make default-libmysqlclient-dev zlib1g-dev libpcre3-dev mysql-server
+  $ sudo apt-get install git make default-libmysqlclient-dev zlib1g-dev libpcre3-dev mysql-server
   
   $ sudo apt install build-essential
   > For gcc & g++
   
-  > Below comands might not be needed to run as unstable
+  > Below comands might not be needed
   $ echo "deb http://ftp.us.debian.org/debian unstable main contrib non-free" >> /etc/apt/sources.list.d/unstable.list
   
   $ apt-get install -t unstable gcc-5
