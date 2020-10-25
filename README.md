@@ -47,11 +47,11 @@ create user 'ragzinho'@'localhost' identified by 'secret';
 Give permisions to user
 GRANT ALL PRIVILEGES ON ragzinho . * TO 'ragzinho'@'localhost';
 
+Import database
+mysql -u ragzinho -p ragzinho < sql-files/main.sql
+
 Do this because you need to
 update `login` set `userid` = "ragzinho", `user_pass` = md5("secret") where `account_id` = 1;
-
-Import database
-mysql -u ragzinho -p ragzinho < /ragzinho/sql-files/main.sql
 
 ## Configuring rAthena
 Access /conf/inter_athena.conf and fill up with your data
