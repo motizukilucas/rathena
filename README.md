@@ -62,6 +62,7 @@ Access /conf/inter_athena.conf and fill up with your data
   server_name: ragzinho
   login_ip: 127.0.0.1
   char_ip: 138.59.122.12
+> 138.59.122.12 is your public ip address
 
   userid: ragzinho
   passwd: secret
